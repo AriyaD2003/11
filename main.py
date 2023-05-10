@@ -4,7 +4,7 @@ from utils import load_candidates_from_json, get_candidate, get_candidates_by_na
 PATH_CANDIDATES = 'candidates.json'
 candidates = load_candidates_from_json(PATH_CANDIDATES)
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="")
 
 
 @app.route('/')
@@ -36,4 +36,5 @@ def get_user_by_skill(skill_name):
     return "Not Found"
 
 
+if __name__ == "__main__":
 app.run()
