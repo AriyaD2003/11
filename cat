@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href = "styles.css" type="text/css"/>
+</head>
+<body>
+    <div class="info">
+       <h1>
+           Hello Kitty
+       </h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Hello_kitty_character_portrait.png">
+    </div>
+    <div class="description">
+        <p><strong>Hi, I'm Hello Kitty, and I'm Japanese fictional character</strong></p>
+    <p class="text-info">
+        In this account, I will share my <strong>life and adventures</strong> with you.<br>
+        I will also show you my collection of <u>clothes and accessories</u>.<br>
+        <mark>Let's have fun together</mark>! <em>Meow</em>!
+    </p>
+        <br>
+        <p><a href="https://en.wikipedia.org/wiki/Hello_Kitty">Источник</a></p>
+    </div>
+</body>
+</html>
